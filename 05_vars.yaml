@@ -8,8 +8,4 @@
 
   tasks:
   - name: print the information
-    debug:
-      game: vollyboll
-      player: kumar
-      type: spiker
-      msg: "hii, i am playing {{ game }}, my name is {{ player }}, i am {{ type }}"
+    msg: "hii, i am playing {{ game }}, my name is {{ player }}, i am {{ type }}"
