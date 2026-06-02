@@ -1,0 +1,6 @@
+- name: demo on inventory variables
+  hosts: ansible
+  tasks:
+  - name:
+    debug:
+      msg: "i like {{ GAME }} and i played as {{ POSITION }}"
