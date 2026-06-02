@@ -4,5 +4,5 @@
   vars_files:
   - common.yaml
   tasks:
-    debug:
+  - debug:
       msg: " hii, i am playing {{ game }}, my name is {{ player }}, i am {{ type }}"
