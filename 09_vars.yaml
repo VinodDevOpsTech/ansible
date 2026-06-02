@@ -3,4 +3,4 @@
   tasks:
   - name:
     debug:
-      msg: "i like {{ GAME }} and i played as {{ POSITION }}"
+      msg: "i like {{ GAME }} and i played as {{ POSITION }},common-key:{{ common_key }}"
