@@ -1,0 +1,7 @@
+- name: demo on inventory variables
+  hosts: local
+  connection: local
+  tasks:
+  - name:
+    debug:
+      msg: "i like {{ GAME }} and i played as {{ POSITION }}"
