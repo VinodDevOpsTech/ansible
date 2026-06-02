@@ -1,0 +1,15 @@
+- name: overriding variabels
+  hosts: localhost
+  connection: local
+  vars:
+    game: cricket
+    player: vinod
+    type: right hand batsman
+
+  tasks:
+  - name: print the information
+    debug:
+      game: vollyboll
+      player: kumar
+      type: spiker
+      msg: "hii, i am playing {{ game }}, my name is {{ player }}, i am {{ type }}"
