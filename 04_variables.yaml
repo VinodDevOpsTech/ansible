@@ -1,5 +1,6 @@
 - name: about variables
-  hosts: ansible
+  hosts: localhost
+  connection: local
   vars:
     game: cricket
     player: vinod
