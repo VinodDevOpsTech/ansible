@@ -1,7 +1,7 @@
 - name: calling from another yaml file
   hosts: localhost
   connection: local
-  vars:
+  vars_files:
   - common.yaml
   tasks:
     debug:
