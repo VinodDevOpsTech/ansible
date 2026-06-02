@@ -1,0 +1,8 @@
+- name: calling from another yaml file
+  host: localhost
+  connection: local
+  vars:
+  - common.yaml
+  tasks:
+    debug:
+      msg: " hii, i am playing {{ game }}, my name is {{ player }}, i am {{ type }}"
