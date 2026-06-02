@@ -9,6 +9,6 @@
   tasks:
   - name: print the information
     vars:
-    game: cricket2
+      game: cricket2
     debug:
       msg: "hii, i am playing {{ game }}, my name is {{ player }}, i am {{ type }}"
