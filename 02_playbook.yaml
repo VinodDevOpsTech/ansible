@@ -1,5 +1,5 @@
 - name: demo on debug
-  hosts: frontend
+  hosts: ansible
   tasks:
   - name: hello world
     debug:
