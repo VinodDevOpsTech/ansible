@@ -1,0 +1,10 @@
+- name: about variables
+  hosts: localhost
+  connection: local
+  vars:
+    game: cricket
+    player: vinod
+    type: right hand batsman
+
+  tasks:
+    msg: "hii, i am playing {{ game }}, my name is {{ player }}, i am {{ type }}"  
