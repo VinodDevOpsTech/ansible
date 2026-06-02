@@ -1,4 +1,4 @@
-- name: "demo on debug"
+- name: demo on debug
   target: frontend
   works:
   - name: hello world
